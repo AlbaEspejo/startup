@@ -1,0 +1,102 @@
+
+@media screen and (max-width: 992px) {
+    header{
+        .contenedor_logo_menu{
+            .logo{
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .menu{
+                text-align: center;
+                a{
+                    margin: 0 20px;
+                }
+            }
+        }
+        .textos{
+            font-size: 16px;
+            margin: 50px 0;
+            .primera_linea{
+                font-size: 1.5em;
+            }
+            .segunda_linea{
+                font-size: 1em;
+            }
+            .contenedor_btn{
+                a{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .main{
+        .fotos{
+            .foto{
+                img{
+                    margin-top: 30px;
+                }
+                .titulo{
+                    font-size: 18px;
+                    margin-top: 25px;
+                    margin-bottom: -5px;
+                }
+                .parrafo{
+                    font-size: 14px;
+                }
+            }
+        }
+        .clientes{
+            .cliente{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .main{
+        .caracteristicas{
+            .title{
+                margin-top: -50px;
+            }
+            .caracteristica{
+                margin-bottom: 40px;
+            }
+        }
+        .fotos{
+            .foto{
+                text-align: center;
+                .texto{
+                    *{
+                        text-align: left;
+                    }
+                    p{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .precios{
+            margin-bottom: 0px;
+            .title{
+                margin: 10px;
+                margin-top: -20px;
+            }
+            .precio{
+                padding: 10px 60px 10px 60px;
+            }
+        }
+    }
+    footer{
+        .direccion{
+            text-align: center;
+            .logo{
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    
+}
